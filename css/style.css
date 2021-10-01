@@ -1,0 +1,284 @@
+* {
+  font-family: "Nunito";
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+}
+
+.navbar-border {
+  background-color: #735981;
+  height: 20px;
+}
+
+nav .navbar-nav li a {
+  font-size: 16px;
+  color: #735981;
+  font-weight: 500;
+}
+
+nav .logo-text {
+  height: 20px;
+  margin-top: 20px;
+}
+
+.background-img {
+  background: url(/images/background.png) no-repeat scroll 0 0/cover;
+  width: 100%;
+  height: 100vh;
+  color: #735981;
+  text-align: center;
+}
+.background-img .inner-circle3 {
+  position: absolute;
+  background: #ffffff;
+  color: #735981;
+  border: 2px solid #735981;
+  border-radius: 50%;
+  text-align: center;
+  height: 450px;
+  width: 450px;
+}
+.background-img .inner-circle3 .title1 {
+  font-size: 42px;
+  font-weight: 300;
+}
+.background-img .inner-circle3 .title2 {
+  font-size: 42px;
+  line-height: 103px;
+  font-weight: 900;
+}
+.background-img .inner-circle3 .details {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.classes {
+  overflow: hidden;
+  color: #745a82;
+}
+.classes .dots {
+  width: 5px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #735981;
+}
+.classes .half-circle {
+  margin-top: -80%;
+  width: 1800px;
+  height: 1800px;
+  border-radius: 901px;
+  filter: drop-shadow(-0.174px -4.997px 8px rgba(2, 4, 0, 0.13));
+  background-color: #ebf2f2;
+}
+.classes .half-circle .text-line1 {
+  font-size: 42px;
+  letter-spacing: 4px;
+  font-weight: 300;
+  text-align: center;
+}
+.classes .half-circle .text-line2 {
+  font-size: 42px;
+  letter-spacing: 4px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.yoga-img-section {
+  color: #745a82;
+  margin-bottom: 100px;
+}
+.yoga-img-section .font-thin {
+  font-weight: 300;
+  font-size: 42px;
+  letter-spacing: 4px;
+}
+.yoga-img-section .font-bold {
+  font-weight: 700;
+  font-size: 45px;
+  letter-spacing: 4px;
+}
+.yoga-img-section .yogatype1, .yoga-img-section .yogatype2, .yoga-img-section .yogatype3 {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+.yoga-img-section .img-title {
+  font-size: 33px;
+  font-weight: 700;
+}
+.yoga-img-section .img-body-text {
+  font-size: 25px;
+  font-weight: 300;
+}
+.yoga-img-section .day {
+  font-size: 28px;
+  letter-spacing: 2px;
+  line-height: 66px;
+  font-weight: 700;
+}
+.yoga-img-section .time {
+  font-size: 28px;
+  letter-spacing: 2px;
+  line-height: 66px;
+}
+.yoga-img-section .border {
+  width: 290px;
+  height: 2px;
+  background-color: #ffffff;
+  border: 0.15px solid #745a82;
+}
+.yoga-img-section .show-more {
+  font-size: 23px;
+  letter-spacing: 5px;
+  line-height: 21px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  width: 334px;
+  height: 75px;
+  border-radius: 38px;
+  filter: drop-shadow(-0.174px -4.997px 21.5px rgba(2, 4, 0, 0.2));
+  background-color: #735981;
+}
+
+.section-three {
+  overflow: hidden;
+}
+.section-three .bg-image {
+  background: url(/images/banner-2.svg) no-repeat scroll 0 0/cover;
+  width: 100%;
+  height: 105vh;
+}
+.section-three .shape {
+  width: 1696px;
+  height: 926px;
+  border-radius: 846px;
+  filter: drop-shadow(-0.174px -4.997px 21.5px rgba(2, 4, 0, 0.2));
+  background-color: #745a82;
+}
+
+.footer {
+  color: #70577d;
+}
+.footer .footer-title {
+  font-size: 25px;
+  line-height: 33px;
+  font-weight: 700;
+}
+.footer .footer-details {
+  font-size: 21px;
+  line-height: 29px;
+  font-weight: 400;
+}
+.footer .about-us .about {
+  font-size: 21px;
+  line-height: 33px;
+  font-weight: 700;
+}
+.footer .about-us li {
+  font-size: 17px;
+  line-height: 33px;
+  font-weight: 400;
+  list-style: none;
+}
+.footer .details {
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.footer .sign {
+  font-size: 58px;
+  letter-spacing: 4px;
+  line-height: 42px;
+  font-weight: 700;
+}
+
+.footer-border {
+  height: 20px;
+  background-color: #735981;
+}
+
+.yogaTypes {
+  color: #745a82;
+}
+.yogaTypes .breakword {
+  word-break: break-all;
+}
+.yogaTypes .yogaWorkshop img {
+  object-fit: none;
+  object-position: right;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+}
+.yogaTypes .yogaType3 {
+  height: 450px;
+  width: 500px;
+}
+.yogaTypes .title {
+  text-transform: uppercase;
+  font-size: 43px;
+  letter-spacing: 2px;
+  line-height: 58px;
+  font-weight: 400;
+}
+.yogaTypes .subtitle {
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 58px;
+  font-weight: 400;
+}
+.yogaTypes .details {
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 46px;
+  font-weight: 400;
+}
+.yogaTypes .line {
+  width: 531px;
+  height: 2px;
+  background-color: #000000;
+  border: 0.2px solid #745a82;
+}
+
+.healthy-life {
+  color: #735981;
+}
+.healthy-life .heading .border {
+  height: 2px;
+  width: 50%;
+  background-color: #735981;
+}
+.healthy-life .heading .bold-text {
+  font-size: 33px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.healthy-life .normal-text {
+  font-size: 33px;
+  font-weight: lighter;
+}
+.healthy-life .life {
+  text-align: center;
+}
+.healthy-life .life .img-title {
+  font-size: 25px;
+  line-height: 46px;
+  font-weight: 700;
+}
+.healthy-life .life .img-body-text {
+  margin: 0px 20%;
+  font-size: 25px;
+  line-height: 38px;
+  font-weight: 300;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

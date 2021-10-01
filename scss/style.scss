@@ -1,0 +1,345 @@
+$font-color: #735981;
+
+*{
+  font-family: 'Nunito';
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+}
+
+.navbar-border{
+  background-color: $font-color;
+  height: 20px;
+}
+
+nav .navbar-nav li a{
+  font-size: 16px;
+  color: $font-color;
+  font-weight: 500;
+}
+
+nav{
+  .logo-text{
+    height: 20px;
+    margin-top: 20px;
+  }
+}
+
+.background-img {
+  background: url(/images/background.png) no-repeat scroll 0 0 / cover;
+  width: 100%;
+  height: 100vh;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  color: $font-color;
+  text-align: center;
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // .outer-circle {
+  //   position: relative;
+  //   background: #d5dbdb;
+  //   width: 480px;
+  //   height: 480px;
+  //   border-radius: 50%;
+  //   border: 1px solid black;
+  // }
+  // .outer-circle2 {
+  //   position: relative;
+  //   background: #d5dbdb;
+  //   width: 500px;
+  //   height: 500px;
+  //   border-radius: 50%;
+  //   border: 1px solid black;
+  // }
+  // .outer-circle3 {
+  //   position: relative;
+  //   background: #d5dbdb;
+  //   width: 520px;
+  //   height: 520px;
+  //   border-radius: 50%;
+  //   border: 1px solid black;
+  // }
+  // .inner-circle2{
+  //   position: absolute;
+  //   background: #ffffff;
+  //   border-radius: 50%;
+  //   text-align: center;
+  //   height: 440px;
+  //   width: 440px;
+  //   top: 50%;
+  //   left: 50%;
+  //   margin: -200px 0px 0px -200px;
+  // }
+  .inner-circle3 {
+    position: absolute;
+    background: #ffffff;
+    color: #735981;
+    border: 2px solid #735981;
+    border-radius: 50%;
+    text-align: center;
+    height: 450px;
+    width: 450px;
+    // top: 50%;
+    // left: 50%;
+    // margin: 0px 0px 0px ;
+    .title1{
+      font-size: 42px;
+      font-weight: 300;
+    }
+    .title2{
+      font-size: 42px;
+      line-height: 103px;
+      font-weight: 900;
+    }
+    .details{
+      font-size: 25px;
+      font-weight: 700;
+    }
+  }
+}
+
+.classes{
+  overflow: hidden;
+  color: #745a82;
+  .dots{
+    width: 5px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #735981;
+  }
+  .half-circle{
+    margin-top: -80%;
+    width: 1800px;
+    height: 1800px;
+    border-radius: 901px;
+    filter: drop-shadow(-0.174px -4.997px 8px rgba(2,4,0,0.13));
+    background-color: #ebf2f2;
+    .text-line1{
+      font-size: 42px;
+      letter-spacing: 4px;
+      font-weight: 300;
+      text-align: center;
+    }
+    .text-line2{
+      font-size: 42px;
+      letter-spacing: 4px;
+      font-weight: 800;
+      text-align: center;
+    }
+  }
+}
+
+.yoga-img-section{
+    color: #745a82;
+    .font-thin {
+      font-weight: 300;
+      font-size: 42px;
+      letter-spacing: 4px;
+    }
+    .font-bold {
+      font-weight: 700;
+      font-size: 45px;
+      letter-spacing: 4px;
+    }
+    .yogatype1, .yogatype2, .yogatype3{
+      height: 300px;
+      width: 300px;
+      border-radius: 50%;
+    }
+    .img-title{
+      font-size: 33px;
+      font-weight: 700;
+    }
+    .img-body-text{
+      font-size: 25px;
+      font-weight: 300;
+    }
+    .day{
+      font-size: 28px;
+      letter-spacing: 2px;
+      line-height: 66px;
+      font-weight: 700;
+    }
+    .time{
+      font-size: 28px;
+      letter-spacing: 2px;
+      line-height: 66px;
+    }
+    .border{
+      width: 290px;
+      height: 2px;
+      background-color: #ffffff;
+      border: 0.15px solid #745a82;
+    }
+
+  .show-more{
+    font-size: 23px;
+    letter-spacing: 5px;
+    line-height: 21px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    width: 334px;
+    height: 75px;
+    border-radius: 38px;
+    filter: drop-shadow(-0.174px -4.997px 21.5px rgba(2,4,0,0.2));
+    background-color: $font-color;
+  }
+  margin-bottom: 100px;
+}
+
+.section-three{
+  overflow: hidden;
+  .bg-image{
+    background: url(/images/banner-2.svg) no-repeat scroll 0 0 / cover;
+    width: 100%;
+    height: 105vh;
+    // background-size: contain;
+    // background-repeat: no-repeat;
+    // height: 878px;
+    // margin-bottom: -100px;
+    // border-radius: 25% 25% 0px 0px;
+  }
+  .shape{
+    width: 1696px;
+    height: 926px;
+    border-radius: 846px;
+    filter: drop-shadow(-0.174px -4.997px 21.5px rgba(2,4,0,0.2));
+    background-color: #745a82;
+  }
+}
+
+.footer{
+  color: #70577d;
+  .footer-title{
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: 700;
+  }
+  .footer-details{
+    font-size: 21px;
+    line-height: 29px;
+    font-weight: 400;
+  }
+  .about-us{
+    .about{
+      font-size: 21px;
+      line-height: 33px;
+      font-weight: 700;
+    }
+    li {
+      font-size: 17px;
+      line-height: 33px;
+      font-weight: 400;
+      list-style: none;
+    }
+  }
+  .details{
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .sign{
+    font-size: 58px;
+    letter-spacing: 4px;
+    line-height: 42px;
+    font-weight: 700;
+  }
+}
+
+.footer-border{
+  height: 20px;
+  background-color: #735981;
+}
+
+.yogaTypes{
+  color: #745a82;
+  .breakword{
+    word-break: break-all;
+  }
+  .yogaWorkshop img{
+    object-fit: none;
+    object-position: right;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+  }
+  .yogaType3{
+    height: 450px;
+    width: 500px;
+  }
+  .title{
+    text-transform: uppercase;
+    font-size: 43px;
+    letter-spacing: 2px;
+    line-height: 58px;
+    font-weight: 400;
+  }
+  .subtitle{
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 58px;
+    font-weight: 400;
+  }
+  .details{
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 46px;
+    font-weight: 400;
+  }
+  .line{
+    width: 531px;
+    height: 2px;
+    background-color: #000000;
+    border: 0.2px solid #745a82;
+  }
+}
+
+.healthy-life{
+  // .life img{
+  //   filter: drop-shadow(-0.174px -4.997px 44px rgba(109, 201, 17, 0.877));
+  // }
+  color: $font-color;
+  .heading{
+    .border{
+      height: 2px;
+      width: 50%;
+      // margin-right: 2%;
+      // margin-left: 5%;
+      background-color: $font-color;
+    }
+    .bold-text{
+      font-size: 33px;
+      // line-height: 46px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  }
+  .normal-text{
+    font-size: 33px;
+    font-weight: lighter;
+  }
+  .life{
+    text-align: center;
+    .img-title{
+      font-size: 25px;
+      line-height: 46px;
+      font-weight: 700;
+    }
+    .img-body-text{
+      margin: 0px 20%;
+      font-size: 25px;
+      line-height: 38px;
+      font-weight: 300;
+      text-align: center;
+    }
+  }
+}
