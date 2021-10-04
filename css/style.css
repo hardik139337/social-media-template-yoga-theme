@@ -32,6 +32,9 @@ nav .logo-text {
   color: #735981;
   text-align: center;
 }
+.background-img .intro {
+  margin: auto 0px;
+}
 .background-img .inner-circle3 {
   position: absolute;
   background: #ffffff;
@@ -147,18 +150,49 @@ nav .logo-text {
 
 .section-three {
   overflow: hidden;
-}
-.section-three .bg-image {
   background: url(/images/banner-2.svg) no-repeat scroll 0 0/cover;
   width: 100%;
-  height: 105vh;
+  height: 150vh;
+  color: #735981;
 }
-.section-three .shape {
-  width: 1696px;
-  height: 926px;
-  border-radius: 846px;
-  filter: drop-shadow(-0.174px -4.997px 21.5px rgba(2, 4, 0, 0.2));
-  background-color: #745a82;
+.section-three .outer-circle {
+  position: relative;
+  left: 30px;
+  top: 130px;
+  width: 320px;
+  height: 320px;
+  border-radius: 172px;
+  border: 1px solid #735981;
+  background: transparent;
+}
+.section-three .outer-circle .inner-circle {
+  position: relative;
+  left: 20px;
+  top: 20px;
+  width: 280px;
+  height: 280px;
+  border-radius: 152px;
+  border: 2px solid #735981;
+  background: transparent;
+}
+.section-three .outer-circle .inner-circle .left-circle {
+  position: relative;
+  left: 20px;
+  top: 20px;
+  width: 240px;
+  height: 240px;
+  border-radius: 142px;
+  filter: drop-shadow(-0.174px -4.997px 13.5px rgba(2, 4, 0, 0.25));
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.section-three .outer-circle .inner-circle .left-circle .font-bold {
+  font-weight: 900;
+  font-size: 40px;
+}
+.section-three .outer-circle .inner-circle .left-circle .font-thin {
+  font-size: 40px;
 }
 
 .footer {
@@ -207,19 +241,34 @@ nav .logo-text {
 .yogaTypes {
   color: #745a82;
 }
-.yogaTypes .breakword {
-  word-break: break-all;
+.yogaTypes .left-shape {
+  background-image: url(/images/left-shape.png);
+  background-repeat: no-repeat;
+}
+.yogaTypes .right-shape {
+  background-image: url(/images/shape-right.png);
+  background-repeat: no-repeat;
+}
+.yogaTypes .yogaData {
+  margin-top: 100px;
+}
+.yogaTypes .yogaData .outer-circle1 .outer-circle2 .inner-circle {
+  height: 420px;
+  width: 420px;
+  border: 2px solid #745a82;
+  background-color: #000000;
+}
+.yogaTypes .yogaData .outer-circle1 .outer-circle2 .inner-circle .yogaType3 {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
 }
 .yogaTypes .yogaWorkshop img {
   object-fit: none;
   object-position: right;
-  width: 320px;
-  height: 320px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
-}
-.yogaTypes .yogaType3 {
-  height: 450px;
-  width: 500px;
 }
 .yogaTypes .title {
   text-transform: uppercase;
@@ -279,6 +328,68 @@ nav .logo-text {
   line-height: 38px;
   font-weight: 300;
   text-align: center;
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {
+  .yoga-img-section .img-title {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .yoga-img-section .img-body-text {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .yoga-img-section .day {
+    font-size: 26px;
+    letter-spacing: 1px;
+    line-height: 66px;
+    font-weight: 700;
+  }
+  .yoga-img-section .time {
+    font-size: 26px;
+    letter-spacing: 1px;
+    line-height: 66px;
+  }
+  .yoga-img-section .show-more {
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    border-radius: 38px;
+    filter: drop-shadow(-0.174px -4.997px 21.5px rgba(2, 4, 0, 0.2));
+    background-color: #735981;
+  }
+
+  .yogaTypes .title {
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    font-weight: 400;
+  }
+  .yogaTypes .subtitle {
+    text-transform: uppercase;
+    font-size: 23px;
+    letter-spacing: 2px;
+    line-height: 54px;
+    font-weight: 400;
+  }
+  .yogaTypes .details {
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 36px;
+    font-weight: 400;
+  }
+  .yogaTypes .line {
+    width: auto;
+    height: 2px;
+    background-color: #000000;
+    border: 0.2px solid #745a82;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
