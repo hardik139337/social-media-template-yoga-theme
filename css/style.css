@@ -59,31 +59,60 @@ nav .logo-text {
   font-weight: 700;
 }
 
+.background-img {
+  background-image: url(/images/background.png);
+  height: 50vw;
+  background-size: cover;
+  max-height: 700px;
+  min-height: 300px;
+}
+
+.hero-banner-section .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  max-width: 290px;
+  /* top: 50%;
+
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  color: #745a82;
+}
+
+.hero-text .title {
+  font-size: 30px;
+}
+
 .classes {
   overflow: hidden;
   color: #745a82;
 }
-.classes .dots {
-  width: 5px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: #735981;
-}
 .classes .half-circle {
-  margin-top: -80%;
-  width: 1800px;
-  height: 1800px;
-  border-radius: 901px;
-  filter: drop-shadow(-0.174px -4.997px 8px rgba(2, 4, 0, 0.13));
-  background-color: #ebf2f2;
+  background-image: url(/images/Shape.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -600px;
+  height: 900px;
+  width: 100%;
+  border-radius: 50%;
 }
-.classes .half-circle .text-line1 {
+.classes .half-circle .text {
+  position: relative;
+  top: 600px;
+}
+.classes .half-circle .text .text-line1 {
   font-size: 42px;
   letter-spacing: 4px;
   font-weight: 300;
   text-align: center;
 }
-.classes .half-circle .text-line2 {
+.classes .half-circle .text .text-line2 {
   font-size: 42px;
   letter-spacing: 4px;
   font-weight: 800;
@@ -196,7 +225,13 @@ nav .logo-text {
 }
 
 .footer {
+  background-image: url(/images/shape-footer.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #70577d;
+}
+.footer .footer-data {
+  padding-top: 200px;
 }
 .footer .footer-title {
   font-size: 25px;
@@ -241,13 +276,19 @@ nav .logo-text {
 .yogaTypes {
   color: #745a82;
 }
-.yogaTypes .left-shape {
+.yogaTypes .break-word {
+  margin: 0px 100px;
+}
+.yogaTypes .practice {
+  padding-top: 100px;
   background-image: url(/images/left-shape.png);
   background-repeat: no-repeat;
 }
-.yogaTypes .right-shape {
+.yogaTypes .positions {
+  margin: 100px 0px;
   background-image: url(/images/shape-right.png);
   background-repeat: no-repeat;
+  background-position: right;
 }
 .yogaTypes .yogaData {
   margin-top: 100px;
@@ -274,21 +315,28 @@ nav .logo-text {
   text-transform: uppercase;
   font-size: 43px;
   letter-spacing: 2px;
-  line-height: 58px;
+  line-height: 50px;
   font-weight: 400;
 }
 .yogaTypes .subtitle {
   text-transform: uppercase;
   font-size: 25px;
   letter-spacing: 2px;
-  line-height: 58px;
+  line-height: 45px;
   font-weight: 400;
 }
 .yogaTypes .details {
   font-size: 25px;
   letter-spacing: 2px;
-  line-height: 46px;
+  line-height: 35px;
   font-weight: 400;
+}
+.yogaTypes .date {
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 42px;
+  color: #70577d;
+  font-weight: 300;
 }
 .yogaTypes .line {
   width: 531px;
@@ -389,6 +437,65 @@ nav .logo-text {
     height: 2px;
     background-color: #000000;
     border: 0.2px solid #745a82;
+  }
+}
+@media (max-width: 1200) and (min-width: 992px) {
+  .yoga-img-section {
+    color: #745a82;
+    margin-bottom: 100px;
+  }
+  .yoga-img-section .font-thin {
+    font-weight: 300;
+    font-size: 38px;
+    letter-spacing: 4px;
+  }
+  .yoga-img-section .font-bold {
+    font-weight: 700;
+    font-size: 38px;
+    letter-spacing: 4px;
+  }
+  .yoga-img-section .yogatype1, .yoga-img-section .yogatype2, .yoga-img-section .yogatype3 {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
+  .yoga-img-section .img-title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .yoga-img-section .img-body-text {
+    font-size: 22px;
+    font-weight: 300;
+  }
+  .yoga-img-section .day {
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 66px;
+    font-weight: 700;
+  }
+  .yoga-img-section .time {
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 66px;
+  }
+  .yoga-img-section .border {
+    width: 290px;
+    height: 2px;
+    background-color: #ffffff;
+    border: 0.15px solid #745a82;
+  }
+  .yoga-img-section .show-more {
+    font-size: 23px;
+    letter-spacing: 5px;
+    line-height: 21px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    width: 334px;
+    height: 75px;
+    border-radius: 38px;
+    filter: drop-shadow(-0.174px -4.997px 21.5px rgba(2, 4, 0, 0.2));
+    background-color: #735981;
   }
 }
 
